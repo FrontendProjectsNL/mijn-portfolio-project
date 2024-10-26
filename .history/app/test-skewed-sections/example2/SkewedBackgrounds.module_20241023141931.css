@@ -1,0 +1,65 @@
+.section {
+  position: relative;
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.section h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 1.2rem;
+}
+
+/* Skewing effect at the top and bottom */
+.section::before,
+.section::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: inherit;
+  z-index: -1;
+}
+
+.section::before {
+  top: -50px;
+  transform: skewY(-6deg);
+}
+
+.section::after {
+  bottom: -50px;
+  transform: skewY(6deg);
+}
+
+/* Background colors */
+.blue {
+  background-color: #007bff;
+}
+
+.red {
+  background-color: #dc3545;
+}
+
+.green {
+  background-color: #28a745;
+}
+
+.yellow {
+  background-color: #ffc107;
+}
+
+.purple {
+  background-color: #6f42c1;
+}
+
+/* Section content styling */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}

@@ -1,0 +1,53 @@
+.edge--triangle {
+  position: relative;
+  z-index: 1;
+}
+
+.edge--triangle::after {
+  background: inherit;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transform: skewY(-45deg); /* Adjust skew to make a triangle-like shape */
+  transform-origin: 100% 100%;
+}
+
+/* Background Colors */
+.bg-berry {
+  background: #b52b4a;
+}
+
+.bg-blue {
+  background: #41ade5;
+}
+
+.bg-orange {
+  background: #de6628;
+}
+
+.bg-green {
+  background: #5e9b42;
+}
+
+.block {
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  padding: 20% 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 0.5em;
+}

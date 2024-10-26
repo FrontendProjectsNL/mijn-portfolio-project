@@ -1,0 +1,40 @@
+.section {
+  position: relative;
+  padding: 100px 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.blue {
+  background-color: #0070f3;
+  clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+}
+
+.red {
+  background-color: #f30b0b;
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+}
+
+.green {
+  background-color: #10b981;
+  clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+}
+
+.yellow {
+  background-color: #f59e0b;
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 95%);
+}
+
+.purple {
+  background-color: #8b5cf6;
+  clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+}
+
+.content {
+  max-width: 600px;
+  padding: 6px;
+  font-size: 24px;
+}

@@ -1,0 +1,23 @@
+/* .bg-berry {
+  background: #b52b4a;
+}
+
+.edge--triangle {
+  width: 0; /* No width */
+  height: 0; /* No height */
+  border-left: 200px solid transparent; /* Triangle sides */
+  border-right: 200px solid transparent;
+  border-bottom: 200px solid #b52b4a; /* Triangle color */
+  margin: 0 auto; /* Center it horizontally */
+}
+
+.block {
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+} */

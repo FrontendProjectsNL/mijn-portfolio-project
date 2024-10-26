@@ -1,0 +1,46 @@
+.edge--triangle {
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  clip-path: polygon(
+    50% 0%,
+    0% 100%,
+    100% 100%
+  ); /* Creates the triangle shape */
+  height: 300px; /* Adjust height based on your design */
+}
+
+/* Background Colors */
+.bg-berry {
+  background: #b52b4a;
+}
+
+.bg-blue {
+  background: #41ade5;
+}
+
+.bg-orange {
+  background: #de6628;
+}
+
+.bg-green {
+  background: #5e9b42;
+}
+
+.block {
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 0.5em;
+}

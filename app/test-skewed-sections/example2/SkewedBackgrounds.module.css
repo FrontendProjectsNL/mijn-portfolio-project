@@ -1,0 +1,63 @@
+/* Main styling for the section */
+.section {
+  position: relative;
+  padding: 80px 20px;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+  transform: skewY(-6deg); /* Skew the entire section */
+}
+
+.section h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  transform: skewY(6deg); /* Unskew the content inside */
+}
+
+.section p {
+  font-size: 1.2rem;
+  transform: skewY(6deg); /* Unskew the content inside */
+}
+
+/* Different background colors */
+.blue {
+  background-color: #007bff;
+}
+
+.red {
+  background-color: #dc3545;
+}
+
+.green {
+  background-color: #28a745;
+}
+
+.yellow {
+  background-color: #ffc107;
+}
+
+.purple {
+  background-color: #6f42c1;
+}
+
+/* Fix the skew cut-off issue at the top and bottom */
+.section::before,
+.section::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: inherit;
+  z-index: -1;
+}
+
+.section::before {
+  top: -50px;
+  transform: skewY(6deg); /* Opposite skew to create smooth edges */
+}
+
+.section::after {
+  bottom: -50px;
+  transform: skewY(6deg); /* Opposite skew to create smooth edges */
+}

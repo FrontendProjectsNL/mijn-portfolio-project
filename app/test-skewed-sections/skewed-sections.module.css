@@ -1,0 +1,22 @@
+.section {
+  position: relative;
+  padding: 80px 0;
+  color: white;
+}
+
+.skewed-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: skewY(-6deg);
+  z-index: -1;
+}
+
+.section-content {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}

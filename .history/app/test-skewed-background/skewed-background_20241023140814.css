@@ -1,0 +1,100 @@
+.edge {
+  position: relative;
+  z-index: 1;
+}
+
+.edge::before,
+.edge::after {
+  background: inherit;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  -webkit-backface-visibility: hidden;
+}
+
+.edge--bottom::after {
+  bottom: 0;
+  transform: skewY(-1.5deg);
+  transform-origin: 100%;
+}
+
+.edge--bottom-reverse::after {
+  bottom: 0;
+  transform: skewY(1.5deg);
+  transform-origin: 100%;
+}
+
+.edge--top::before {
+  top: 0;
+  transform: skewY(1.5deg);
+  transform-origin: 100% 0;
+}
+
+.edge--top-reverse::before {
+  top: 0;
+  transform: skewY(-1.5deg);
+  transform-origin: 0 0;
+}
+
+.edge--both::before {
+  top: 0;
+  transform: skewY(1.5deg);
+  transform-origin: 100% 0;
+}
+
+.edge--both::after {
+  bottom: 0;
+  transform: skewY(-1.5deg);
+  transform-origin: 100%;
+}
+
+.edge--both-reverse::before {
+  top: 0;
+  transform: skewY(-1.5deg);
+  transform-origin: 0 0;
+}
+
+.edge--both-reverse::after {
+  bottom: 0;
+  transform: skewY(1.5deg);
+  transform-origin: 0 100%;
+}
+
+/* Background Colors */
+.bg-berry {
+  background: #b52b4a;
+}
+
+.bg-white {
+  background: #fff;
+}
+
+.bg-orange {
+  background: #de6628;
+}
+
+.bg-green {
+  background: #5e9b42;
+}
+
+.test-block {
+  color: #fff;
+  font-family: 'Fira Sans', sans-serif;
+  padding: 20% 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 0.5em;
+}

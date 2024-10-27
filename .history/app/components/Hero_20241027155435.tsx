@@ -35,7 +35,7 @@ const Hero: React.FC<HeroProps> = () => {
   return (
     <div className="w-full h-screen bg-[url('/my_hero_bg.webp')] bg-cover bg-center">
       <div className="flex justify-around items-center gap-2">
-        <div className="w-[50%] h-screen flex flex-col justify-center items-center">
+        <div className="w-[50%] h-screen bg-blue-300 flex flex-col justify-center items-center">
           <h1 className="mt-12 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-snug md:leading-normal lg:leading-relaxed xl:leading-loose">
             Hello, welcome!
           </h1>
@@ -73,7 +73,7 @@ const Hero: React.FC<HeroProps> = () => {
           </div>
         </div>
 
-        <div className="w-[50%] h-screen flex justify-center place-items-end pb-5">
+        <div className="w-[50%] h-screen bg-pink-300 flex justify-center place-items-end pb-5">
           <IconCloudDemo />
         </div>
         <div></div>

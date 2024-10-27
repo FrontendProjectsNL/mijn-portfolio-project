@@ -35,7 +35,7 @@ const Hero: React.FC<HeroProps> = () => {
   return (
     <div className="w-full h-screen bg-[url('/my_hero_bg.webp')] bg-cover bg-center">
       <div className="flex justify-around items-center gap-2">
-        <div className="w-[50%] h-screen flex flex-col justify-center items-center">
+        <div className="w-[50%] h-screen bg-blue-300 flex flex-col justify-center items-center">
           <h1 className="mt-12 font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl leading-tight sm:leading-snug md:leading-normal lg:leading-relaxed xl:leading-loose">
             Hello, welcome!
           </h1>
@@ -50,7 +50,7 @@ const Hero: React.FC<HeroProps> = () => {
           <div className="flex justify-center items-center gap-4">
             <button className="rounded-full group bg-black relative m-1 cursor-pointer overflow-hidden px-20 py-4 font-mono font-semibold">
               <span className="ease absolute top-1/2 h-0 w-64 origin-center -translate-x-20 rotate-45 bg-[#f27d4b] transition-all duration-300 group-hover:h-64 group-hover:-translate-y-32"></span>
-              <span className="ease relative text-white transition duration-300 group-hover:text-white text-base sm:text-lg md:text-xl lg:text-xl">
+              <span className="ease relative text-white transition duration-300 group-hover:text-white">
                 Hire me!
               </span>
             </button>
@@ -62,18 +62,14 @@ const Hero: React.FC<HeroProps> = () => {
                 className="rounded-full"
               />
               <div>
-                <p className="text-base sm:text-lg md:text-xl lg:text-xl">
-                  Ehsan Alborzi
-                </p>
-                <p className="text-[#727272] text-base sm:text-lg md:text-xl lg:text-xl">
-                  Fullstack Developer
-                </p>
+                <p>Ehsan Alborzi</p>
+                <p>Fullstack Developer</p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="w-[50%] h-screen flex justify-center place-items-end pb-5">
+        <div className="w-[50%] h-screen bg-pink-300 flex justify-center place-items-end pb-5">
           <IconCloudDemo />
         </div>
         <div></div>

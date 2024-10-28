@@ -100,93 +100,93 @@ const TechStack: React.FC<TechStackProps> = () => {
         </Card>
         <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
           <Image
-            src="/tech-icons/github.svg" // Removed '/public'
-            width={150}
-            height={150}
-            alt="Github"
-          />
-          <p className="font-medium text-sm">Github</p>
-        </Card>
-        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
-          <Image
-            src="/tech-icons/html-1.svg" // Removed '/public'
-            width={150}
-            height={150}
-            alt="HTML5"
-          />
-          <p className="font-medium text-sm">HTML5</p>
-        </Card>
-        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
-          <Image
-            src="/tech-icons/mongodb-icon-2.svg" // Removed '/public'
-            width={150}
-            height={150}
-            alt="MongoDB"
-          />
-          <p className="font-medium text-sm">MongoDB</p>
-        </Card>
-        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
-          <Image
-            src="/tech-icons/mysql-3.svg" // Removed '/public'
-            width={150}
-            height={150}
-            alt="MySQL"
-          />
-          <p className="font-medium text-sm">MySQL</p>
-        </Card>
-        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
-          <Image
-            src="/tech-icons/postgresql.svg" // Removed '/public'
-            width={150}
-            height={150}
-            alt="PostgreSQL"
-          />
-          <p className="font-medium text-sm">PostgreSQL</p>
-        </Card>
-        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
-          <Image
-            src="/tech-icons/prisma-2.svg" // Removed '/public'
-            width={150}
-            height={150}
-            alt="Prisma"
-          />
-          <p className="font-medium text-sm">Prisma</p>
-        </Card>
-        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
-          <Image
-            src="/tech-icons/sanity.svg" // Removed '/public'
-            width={150}
-            height={150}
-            alt="Sanity"
-          />
-          <p className="font-medium text-sm">Sanity</p>
-        </Card>
-        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
-          <Image
-            src="/tech-icons/stripe-4.svg" // Removed '/public'
-            width={150}
-            height={150}
-            alt="Stripe"
-          />
-          <p className="font-medium text-sm">Stripe</p>
-        </Card>
-        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
-          <Image
-            src="/tech-icons/tailwind-css-2.svg" // Removed '/public'
-            width={150}
-            height={150}
-            alt="TailwindCSS"
-          />
-          <p className="font-medium text-sm">TailwindCSS</p>
-        </Card>
-        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
-          <Image
-            src="/tech-icons/zAvyayM9_400x400.jpg" // Removed '/public'
+            src="/tech-icons/framer.svg" // Removed '/public'
             width={150}
             height={150}
             alt="Framer Icon"
           />
-          <p className="font-medium text-sm">Kinde</p>
+          <p className="font-medium text-sm">Framer</p>
+        </Card>
+        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
+          <Image
+            src="/tech-icons/framer.svg" // Removed '/public'
+            width={150}
+            height={150}
+            alt="Framer Icon"
+          />
+          <p className="font-medium text-sm">Framer</p>
+        </Card>
+        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
+          <Image
+            src="/tech-icons/framer.svg" // Removed '/public'
+            width={150}
+            height={150}
+            alt="Framer Icon"
+          />
+          <p className="font-medium text-sm">Framer</p>
+        </Card>
+        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
+          <Image
+            src="/tech-icons/framer.svg" // Removed '/public'
+            width={150}
+            height={150}
+            alt="Framer Icon"
+          />
+          <p className="font-medium text-sm">Framer</p>
+        </Card>
+        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
+          <Image
+            src="/tech-icons/framer.svg" // Removed '/public'
+            width={150}
+            height={150}
+            alt="Framer Icon"
+          />
+          <p className="font-medium text-sm">Framer</p>
+        </Card>
+        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
+          <Image
+            src="/tech-icons/framer.svg" // Removed '/public'
+            width={150}
+            height={150}
+            alt="Framer Icon"
+          />
+          <p className="font-medium text-sm">Framer</p>
+        </Card>
+        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
+          <Image
+            src="/tech-icons/framer.svg" // Removed '/public'
+            width={150}
+            height={150}
+            alt="Framer Icon"
+          />
+          <p className="font-medium text-sm">Framer</p>
+        </Card>
+        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
+          <Image
+            src="/tech-icons/framer.svg" // Removed '/public'
+            width={150}
+            height={150}
+            alt="Framer Icon"
+          />
+          <p className="font-medium text-sm">Framer</p>
+        </Card>
+        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
+          <Image
+            src="/tech-icons/framer.svg" // Removed '/public'
+            width={150}
+            height={150}
+            alt="Framer Icon"
+          />
+          <p className="font-medium text-sm">Framer</p>
+        </Card>
+        <Card className="col-span-1 h-52 w-48 flex flex-col items-center justify-center">
+          <Image
+            src="/tech-icons/framer.svg" // Removed '/public'
+            width={150}
+            height={150}
+            alt="Framer Icon"
+          />
+          <p className="font-medium text-sm">Framer</p>
         </Card>
       </div>
     </div>

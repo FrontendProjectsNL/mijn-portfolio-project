@@ -1,0 +1,25 @@
+// TechStack.tsx
+import { Card } from '@/components/ui/card';
+import { AwsIcon, CSSIcon } from '@/app/data/icons';
+
+const TechStack: React.FC = () => {
+  const icons = [AwsIcon, CSSIcon];
+
+  return (
+    <div className="flex flex-col px-24 mt-28 w-full h-screen font-bold space-y-12">
+      <p className="text-4xl">Tech Stack</p>
+      <div className="grid grid-cols-5 gap-4">
+        {icons.map((Icon, index) => (
+          <Card
+            key={index}
+            className="col-span-1 h-52 flex items-center justify-center"
+          >
+            <Icon className="w-16 h-16" />
+          </Card>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default TechStack;

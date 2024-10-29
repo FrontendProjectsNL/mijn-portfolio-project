@@ -46,7 +46,7 @@ const TechStack: React.FC<TechStackProps> = () => {
 
         <div
           ref={refRow1}
-          className="grid grid-cols-5"
+          className="grid grid-cols-6"
           style={{
             transform: isInViewRow1 ? 'none' : 'translateY(200px)',
             opacity: isInViewRow1 ? 1 : 0,

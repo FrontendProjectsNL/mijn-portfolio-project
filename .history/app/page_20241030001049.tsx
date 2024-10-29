@@ -16,9 +16,11 @@ export default function Home() {
             height={459}
             className="md:-mt-10"
           />
-          <div className="flex flex-col gap-16">
-            <h2 className="text-3xl font-bold">Responsive Web Development</h2>
-            <p className="text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2xl">
+          <div className="flex flex-col">
+            <h2 className="text-3xl font-bold">
+              Crafting Responsive Web Experiences
+            </h2>
+            <p className="text-balance py-4 px-6 sm:py-6 sm:px-8 md:py-8 md:px-10 lg:py-10 lg:px-12 xl:py-12 xl:px-14 leading-relaxed sm:leading-loose md:leading-normal lg:leading-relaxed xl:leading-tight text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl">
               I focus on creating dynamic, adaptable interfaces that look and
               function beautifully on any screen size. From mobile phones to
               desktop monitors, each design element responds fluidly, ensuring

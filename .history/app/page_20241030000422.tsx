@@ -16,15 +16,19 @@ export default function Home() {
             height={459}
             className="md:-mt-10"
           />
-          <div className="flex flex-col gap-16">
-            <h2 className="text-3xl font-bold">Responsive Web Development</h2>
-            <p className="text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2xl">
+          <div className="flex flex-col">
+            <h2 className="text-3xl font-bold">
+              Crafting Responsive Web Experiences
+            </h2>
+            <p>
               I focus on creating dynamic, adaptable interfaces that look and
               function beautifully on any screen size. From mobile phones to
               desktop monitors, each design element responds fluidly, ensuring
-              users enjoy a seamless experience wherever they go.
+              users enjoy a seamless experience wherever they go. Responsive
+              development is at the heart of my work, combining accessibility
+              with aesthetics for a truly engaging web presence.
             </p>
-            <button className="w-[50%] self-center bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-6 rounded-lg animate-bounce">
+            <button class="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-6 rounded-lg animate-bounce">
               Team Collaboration
             </button>
           </div>

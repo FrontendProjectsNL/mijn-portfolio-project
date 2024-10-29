@@ -1,0 +1,17 @@
+import Image from 'next/image';
+import Hero from './components/Hero';
+import TechStack from './components/TechStack';
+import responsiveDev from '/responsivedev.jpg';
+
+export default function Home() {
+  return (
+    <div className="font-roboto ">
+      <Hero />
+      {/* <section className="w-full h-screen bg-green-400"></section> */}
+      <TechStack />
+      <section className="w-[90%] h-screen mx-auto bg-[#DFEFF0] rounded-3xl">
+        <Image src={responsiveDev} width={944} height={611} />
+      </section>
+    </div>
+  );
+}

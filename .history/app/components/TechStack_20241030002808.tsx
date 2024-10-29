@@ -46,14 +46,14 @@ const TechStack: React.FC<TechStackProps> = () => {
 
         <div
           ref={refRow1}
-          className="grid grid-cols-5"
+          className="grid grid-cols-5 gap-4"
           style={{
             transform: isInViewRow1 ? 'none' : 'translateY(200px)',
             opacity: isInViewRow1 ? 1 : 0,
             transition: 'all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s',
           }}
         >
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/aws-2.svg" // Removed '/public'
               width={90}
@@ -62,7 +62,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">AWS</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/next.svg" // Removed '/public'
               width={90}
@@ -71,7 +71,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">Next.JS</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/javascript-1.svg" // Removed '/public'
               width={90}
@@ -80,7 +80,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">JavaScript</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/react-2.svg" // Removed '/public'
               width={90}
@@ -89,7 +89,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">React.JS</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/sass-1.svg" // Removed '/public'
               width={90}
@@ -109,7 +109,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             transition: 'all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s',
           }}
         >
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/css-3.svg" // Removed '/public'
               width={90}
@@ -118,7 +118,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">CSS</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/es6.svg" // Removed '/public'
               width={90}
@@ -127,7 +127,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">ES6</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/framer.svg" // Removed '/public'
               width={90}
@@ -136,7 +136,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">Framer</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/git.svg" // Removed '/public'
               width={90}
@@ -145,7 +145,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">Git</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/github-icon-1.svg" // Removed '/public'
               width={90}
@@ -165,7 +165,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             transition: 'all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s',
           }}
         >
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/github.svg" // Removed '/public'
               width={90}
@@ -174,7 +174,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">Github</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/html-1.svg" // Removed '/public'
               width={90}
@@ -183,7 +183,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">HTML5</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/Strapi-Logo.webp" // Removed '/public'
               width={90}
@@ -192,7 +192,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">Strapi</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/mongodb-icon-2.svg" // Removed '/public'
               width={90}
@@ -201,7 +201,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">MongoDB</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/mysql-3.svg" // Removed '/public'
               width={90}
@@ -220,7 +220,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             transition: 'all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s',
           }}
         >
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/postgresql.svg" // Removed '/public'
               width={90}
@@ -229,7 +229,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">PostgreSQL</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/prisma-2.svg" // Removed '/public'
               width={90}
@@ -238,7 +238,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">Prisma</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/sanity.svg" // Removed '/public'
               width={90}
@@ -247,7 +247,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">Sanity</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/stripe-4.svg" // Removed '/public'
               width={90}
@@ -256,7 +256,7 @@ const TechStack: React.FC<TechStackProps> = () => {
             />
             <p className="font-medium text-sm">Stripe</p>
           </Card>
-          <Card className="col-span-1 h-52 w-44 flex flex-col items-center justify-center">
+          <Card className="col-span-1 h-52 w-46 flex flex-col items-center justify-center">
             <Image
               src="/tech-icons/tailwind-css-2.svg" // Removed '/public'
               width={90}

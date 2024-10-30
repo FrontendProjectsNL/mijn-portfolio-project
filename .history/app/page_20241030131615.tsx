@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Hero from './components/Hero';
 import TechStack from './components/TechStack';
 import CarouselProjects from './components/CarouselProjects';
-import BookaCallComponent from './components/BookaCallComponent';
 // import responsiveDev from '';
 
 export default function Home() {
@@ -89,17 +88,8 @@ export default function Home() {
       </div>
 
       <div className="h-screen">
-        <section className="flex justify-between items-center w-[90%] h-[90%] mx-auto bg-[#E8EFDE] rounded-3xl md:px-16 ">
+        <section className="flex justify-between items-center w-[100%] h-[90%] mx-auto bg-[#E8EFDE] rounded-3xl md:px-16 ">
           <CarouselProjects />
-        </section>
-      </div>
-
-      <div className="h-screen">
-        <section className="flex flex-col gap-4 justify-center items-center w-full h-[50%] mx-auto bg-black md:px-16 ">
-          <p className="px-8 text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2xl text-white">
-            Let's talk!
-          </p>
-          <BookaCallComponent />
         </section>
       </div>
     </div>

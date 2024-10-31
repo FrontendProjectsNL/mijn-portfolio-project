@@ -3,7 +3,6 @@ import Hero from './components/Hero';
 import TechStack from './components/TechStack';
 import CarouselProjects from './components/CarouselProjects';
 import BookaCallComponent from './components/BookaCallComponent';
-import Footer from './components/Footer';
 // import responsiveDev from '';
 
 export default function Home() {
@@ -95,13 +94,14 @@ export default function Home() {
         </section>
       </div>
 
-      <section className="w-full h-96 pt-40 flex flex-col gap-4 justify-center items-center mx-auto bg-[#141414] ">
-        <p className="px-8 text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2xl text-white">
-          Let's talk!
-        </p>
-        <BookaCallComponent />
-      </section>
-      <Footer />
+      <div className="h-[50%">
+        <section className="flex flex-col gap-4 justify-center items-center w-full mx-auto bg-black md:px-16 ">
+          <p className="px-8 text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2xl text-white">
+            Let's talk!
+          </p>
+          <BookaCallComponent />
+        </section>
+      </div>
     </div>
   );
 }

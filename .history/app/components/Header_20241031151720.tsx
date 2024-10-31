@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import logo from '/public/EhsanLogo1Transparent.png';
+import logo from '/public/EhsanLogo2Transparent.png';
 import { CircleUser, SquareUserRound, User } from 'lucide-react';
 
 const Header = () => {

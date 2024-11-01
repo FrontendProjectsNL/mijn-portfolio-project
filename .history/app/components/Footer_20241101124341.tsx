@@ -21,14 +21,14 @@ const Footer: React.FC<FooterProps> = () => {
               Home
             </Link>
             <Link
-              href="/services"
+              href="/"
               href="href"
               className="text-white text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2x"
             >
               Services
             </Link>
             <Link
-              href="/projects"
+              href="/"
               href="href"
               className="text-white text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2x"
             >
@@ -39,21 +39,21 @@ const Footer: React.FC<FooterProps> = () => {
         <div className="col-span-1 col-start-7">
           <div className="flex flex-col gap-4">
             <Link
-              href="/about-me"
+              href="/"
               href="href"
               className="text-white text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2x"
             >
               About me
             </Link>
             <Link
-              href="/blog"
+              href="/"
               href="href"
               className="text-white text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2x"
             >
               Blog
             </Link>
             <Link
-              href="/contact"
+              href="/"
               href="href"
               className="text-white text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2x"
             >

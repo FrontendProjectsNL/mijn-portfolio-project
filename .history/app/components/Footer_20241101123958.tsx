@@ -11,7 +11,7 @@ const Footer: React.FC<FooterProps> = () => {
         <div className="col-span-2 col-start-2">
           <Image src={'/EhsanLogo2.png'} width={225} height={150} />
         </div>
-        <div className="col-span-1 col-start-5">
+        <div className="col-span-1 col-start-6">
           <div className="flex flex-col gap-4">
             <Link
               href="/"
@@ -21,14 +21,14 @@ const Footer: React.FC<FooterProps> = () => {
               Home
             </Link>
             <Link
-              href="/services"
+              href="/"
               href="href"
               className="text-white text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2x"
             >
               Services
             </Link>
             <Link
-              href="/projects"
+              href="/"
               href="href"
               className="text-white text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2x"
             >
@@ -36,39 +36,30 @@ const Footer: React.FC<FooterProps> = () => {
             </Link>
           </div>
         </div>
-        <div className="col-span-1 col-start-7">
+        <div className="col-span-1 col-start-9">
           <div className="flex flex-col gap-4">
             <Link
-              href="/about-me"
+              href="/"
               href="href"
               className="text-white text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2x"
             >
               About me
             </Link>
             <Link
-              href="/blog"
+              href="/"
               href="href"
               className="text-white text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2x"
             >
               Blog
             </Link>
             <Link
-              href="/contact"
+              href="/"
               href="href"
               className="text-white text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2x"
             >
               Contact
             </Link>
           </div>
-        </div>
-        <div className="col-span-1 col-start-9">
-          <Link
-            href="/"
-            href="href"
-            className="text-white text-balance sm:text-lg md:text-xl lg:text-xl xl:text-2x"
-          >
-            ehsanalborzi2009@gmail.com
-          </Link>
         </div>
       </div>
       <div className="ml-20 mb-10">
